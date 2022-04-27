@@ -300,7 +300,7 @@ Level0.TextScaled = true
 Level0.TextSize = 14.000
 Level0.TextWrapped = true
 Level0.MouseButton1Click:Connect(function()
-	level0F.Visible = true
+	Level0F.Visible = true
 	Levels.Visible = false
 end)
 
@@ -15489,7 +15489,6 @@ end)
 
 UICorner_37.Parent = WOW
 
--- Scripts:
 -- Credits:
 
 local frame = script.Parent
@@ -15509,8 +15508,6 @@ local content, isReady = game.Players:GetUserThumbnailAsync(userId, thumbType, t
 
 
 frame.DevPic.Image = content
-
--- Home:
 
 local frame = script.Parent
 
